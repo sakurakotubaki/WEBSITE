@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/tea.jpg");
+  margin: 0;
+  padding: 0;
+}
+ul.gnav-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 24px;
+}
+
+ul.gnav-list a {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+ul.gnav-list a:hover {
+  color: #eeeeee;
+}
+
+main h1 {
+  color: #cccccc;
+  text-align: center;
+}
+
+main h1:hover {
+  color: #eeeeee;
+  opacity: 1;
+}
+
+.footer-inner p {
+  color: #cccccc;
+  padding-left: 2em;
+  text-align: center;
+}
+
+.footer-inner p:hover {
+  color: #eeeeee;
+  opacity: 1;
+}

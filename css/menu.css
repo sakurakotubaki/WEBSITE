@@ -1,0 +1,29 @@
+*{box-sizing: border-box;}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../img/matcha.jpg");
+}
+ul.gnav-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 24px;
+}
+
+ul.gnav-list a {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+ul.gnav-list a:hover {
+  color: #eeeeee;
+}
+
+img {
+  width: 480px;
+  height: 280px;
+}

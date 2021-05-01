@@ -1,0 +1,45 @@
+*{box-sizing: border-box;}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../img/tea60.jpg");
+}
+ul.gnav-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 24px;
+}
+
+ul.gnav-list a {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+ul.gnav-list a:hover {
+  color: #eeeeee;
+}
+
+article h1 {
+  font-size: large;
+  font-weight: normal;
+  margin: 7.2em auto;
+  padding: 1.8em;
+  border-radius: 13px;
+  width: 23em;
+  line-height: 1.8;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+p {
+  margin: 7.2em auto;
+  padding: 1.8em;
+  border-radius: 13px;
+  width: 23em;
+  line-height: 1.8;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ddf907;
+}
