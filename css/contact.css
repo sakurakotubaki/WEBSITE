@@ -35,7 +35,7 @@ ul.gnav-list a:hover {
 
 .form_group input[type="submit"] {
   background-color: greenyellow;
-  border-radius: 4px;
+  border-radius: 5px;
   text-align: center;
   width: 150px;
 }
